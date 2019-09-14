@@ -16,7 +16,6 @@ install:
 
     - conda init bash
     - source ~/.bashrc
-    - exec bash
     - conda env create --file dev_env.yml
     - conda activate Sandbox
 
