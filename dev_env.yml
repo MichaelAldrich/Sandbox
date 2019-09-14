@@ -1,0 +1,10 @@
+name: Sandbox
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - qt.py=1.1
+  - pyside2=5.6.0a1
+  - pip=19.2.3
+  - pip:
+    - ptvsd==4.3.2
